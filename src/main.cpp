@@ -7,6 +7,7 @@
 //============================================================================
 
 #define SHOW_ALL_VEC for (auto vector_item : vecDoubles) {std::cout << vector_item << " ";}
+#define EL std::endl;
 
 #include <iostream>
 
@@ -17,12 +18,12 @@ int main() {
 
 	std::vector<double> vecDoubles;
 
-	std::cout << "<<< Berechnung von Summe und Produkt beliebig vieler Fließkommazahlen >>>" << std::endl;
-	std::cout << std::endl;
-	std::cout << "Geben Sie beliebig viele Fließkommazahlen ein. " << std::endl;
-	std::cout << "Buchstaben beenden die Eingabe und berechnen die Summe und das Produkt." << std::endl;
-	std::cout << std::endl;
-	std::cout << std::endl;
+	std::cout << "<<< Berechnung von Summe und Produkt beliebig vieler Fließkommazahlen >>>" << EL
+	std::cout << EL
+	std::cout << "Geben Sie beliebig viele Fließkommazahlen ein. " << EL
+	std::cout << "Buchstaben beenden die Eingabe und berechnen die Summe und das Produkt." << EL
+	std::cout << EL
+	std::cout << EL
 
 	do {
 		std::cout << "Zahl eingeben: ";
